@@ -1,0 +1,356 @@
+body{
+    background: #2bb36b;
+}
+html{
+    font-size: 0;
+}
+header {
+    background: #2bb36b url("../images/header.jpg") no-repeat ;
+    background-size: 100% auto;
+    height: 7.6rem;
+    border: 0;
+}
+section {
+    background: #2bb36b;
+}
+
+section .w{
+    width: 7.06rem;
+    margin: 0 auto;
+}
+
+section p {
+    color: #003333;
+    font-size: .24rem;
+    height: 1.28rem;
+    line-height: .34rem;
+}
+
+section p span{
+    color: #ffff00;
+}
+section .w .content{
+    background: url("../images/content-bg.jpg");
+    background-size: 100% auto;
+    width: 6.97rem;
+    height: 6.47rem;
+    border-radius: .08rem;
+    box-shadow: 0 .1rem 0 #006633, .07rem .2rem 0 rgba(3,124,63,0.7);
+    position: relative;
+/*    border: .5rem solid red;*/
+}
+section .w .content img{
+    width: 6.97rem;
+    height: 6.47rem;
+    position: absolute;
+    top: 0.2rem;
+}
+section .w .content .content-n{
+    width: 6.44rem;
+    height: 5.8rem;
+    position: absolute;
+    left: .27rem;
+    top: 0.46rem;
+    border-radius: .18rem;
+    background: #006633;
+    padding: .04rem .08rem;
+    font-size: 0;
+}
+section .w .content .content-n li{
+    display: inline-block;
+    width: 2rem;
+    height: 1.25rem;
+    overflow: hidden;
+    margin-left: 0.08rem;
+    position: relative;
+    margin-bottom: .18rem;
+    text-align: center;
+    background: #ffc;
+    color: #006666;
+    border-radius: .1rem;
+    box-shadow: 0 .13rem 0 rgba(255,255,204,0.5);
+    animation: list 6s linear infinite;
+}
+@keyframes list{
+    0%{background: #ffff00}
+    9%{background: #ffff00}
+    9.1%{background: #ffc}
+    100%{background: #ffc}
+}
+section .w .content .content-n li img{
+    width: .80rem;
+    height: .7rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -.4rem;
+    top: 7%;
+ }
+section .w .content .content-n li span{
+    font-size: .19rem;
+    color: #ffff00;
+    background: #009966;
+    position: absolute;
+    right: -0.65rem;
+    top: 0.17rem;
+    width: 2rem;
+    height: .3rem;
+    line-height: .3rem;
+    transform: rotate(45deg);
+    text-align: center;
+    z-index: 1;
+}
+section .w .content .content-n li div{
+    width: 100%;
+    height: .4rem;
+    font-size: .263rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+section .w .content .button a{
+    width: 3.32rem;
+    height: .76rem;
+    text-align: center;
+    line-height: .76rem;
+    color: #006666;
+    font-size: .26rem;
+    background-size: 100% auto;
+    border-radius: .2rem;
+    position: absolute;
+    top: 6.8rem;
+}
+section .w .content .button .a1{
+    background: #ffffcc url("../images/button-bg.png") no-repeat;
+    color: #006666;
+}
+section .w .content .button .a2{
+    background: #ffff00 url("../images/button-bg2.png") no-repeat;
+    left: 3.6rem;
+    overflow: hidden;
+    color: #cc3333;
+}
+section .w .content .button .a2 i{
+    position: absolute;
+    left: 1.70rem;
+    top: 0.08rem;
+    width: 3rem;
+    height: .16rem;
+    color: #cc3333;
+    background: #fff;
+    line-height: .16rem;
+    font-size: .12rem;
+    transform: rotate(45deg);
+}
+section .w .content p{
+    width: 5.76rem;
+    height: .3rem;
+    position: absolute;
+    top: 7.9rem;
+    font-size: .26rem;
+    color: #ffff00;
+}
+section .w .content p i{
+    width: .3rem;
+    height: .3rem;
+    margin-left: .1rem;
+    background: url("../images/content-logo1.png") no-repeat right center;
+    background-size: 100% auto;
+    position: absolute;
+}
+section .w .content p span{
+    color: #003333;
+    text-decoration: underline;
+    margin-right: .5rem;
+}
+section .w .list-bottom{
+    width: 7rem;
+    height: 8.7rem;
+    border-radius: .1rem;
+    background: #ccffcc;
+    box-shadow: 0 .1rem 0 rgba(77,123,77,0.8);
+    margin-top: 2.42rem;
+}
+section .w .list-bottom h1{
+    width: 100%;
+    height: .8rem;
+    background: #ffff00;
+    font-size: .4rem;
+    color: #003333;
+    line-height: .8rem;
+    text-align: center;
+    border-radius: .1rem;
+}
+section .w .list-bottom li{
+    color: #006666;
+    font-size: .28rem;
+    margin: .32rem 0 .3rem .36rem;
+}
+section .w .list-bottom li span{
+    margin: 0 0.8rem 0 1.42rem;
+}
+section .w .list-bottom li .em1{
+    background: url("../images/content-hjlogo.png") no-repeat center center;
+}
+section .w .list-bottom li .em2{
+    background: url("../images/content-khlogo.png") no-repeat center center;
+}
+section .w .list-bottom li i{
+   position: absolute;
+    width: .38rem;
+    height: .38rem;
+}
+section .w .list-bottom li em{
+    margin-left: .2rem;
+}
+footer{
+    width: 7.39rem;
+    height: 10.87rem;
+    background: url("../images/footer-img2.png") no-repeat;
+    background-size: 100% auto;
+    margin-top: .6rem;
+}
+.interactive{
+    position: absolute;
+    top: 0;
+    width: 7.5rem;
+    height: 37.94rem;
+    z-index: 1;
+    background: rgba(0,0,0,0.3);
+}
+.interactive .aircraft{
+    position: absolute;
+    top: 10.46rem;
+    left: .6rem;
+    border-radius: .08rem;
+    z-index: 2;
+    text-align: center;
+    width: 6.2rem;
+}
+.interactive .aircraft .img1{
+    width: 1.48rem;
+    height: 1.96rem;
+    position: absolute;
+    left: 2.4rem;
+    top: -1.6rem;
+    margin: auto;
+    z-index: 1;
+}
+.interactive .aircraft .bottom{
+    width: 6.2rem;
+    height: 3.3rem;
+    position: absolute;
+    z-index: 1;
+    background: #339966;
+    text-align: center;
+    border-radius: .2rem;
+    border: 2px solid #003333;
+}
+.interactive .aircraft .header-1{
+    width: 3.5rem;
+    height: .36rem;
+    line-height: .36rem;
+    margin: auto;
+    font-size: .22rem;
+    margin-top: .26rem;
+    color: #ffffcc;
+}
+.interactive .aircraft .header-11{
+    background: url("../images/aircraft-top.png") no-repeat center center;
+}
+.interactive .aircraft .bottom img{
+    width: 1.40rem;
+    height: 1.58rem;
+    margin-top: .2rem;
+}
+.interactive .aircraft .bottom .footer-1{
+    width: 1.63rem;
+    height: .46rem;
+    line-height: .46rem;
+    font-size: .23rem;
+    color: #663300;
+    border-radius: .46rem;
+    margin: auto;
+    margin-top: .2rem;
+    background: #ffcc00;
+    border: 1px solid #000;
+    box-shadow: 0 .02rem #000;
+}
+.interactive-2 .aircraft .bottom2 .header-2{
+    color: #003333;
+    font-size: .25rem;
+}
+.interactive-2 ul li{
+    width: .6rem;
+    height: 1rem;
+    display: inline-block;
+    text-align: center;
+    margin-right: .45rem;
+    margin-bottom: .15rem;
+}
+.interactive ul .left{
+    margin-left: .25rem;
+}
+.interactive-2 .aircraft .bottom2{
+    width: 6.6rem;
+    height: 3.9rem;
+}
+.interactive-2 .aircraft .bottom2 ul li img{
+    width: .5rem;
+    height: .58rem;
+}
+.interactive-2 .aircraft .bottom2 ul li a{
+    display: block;
+    font-size: .2rem;
+    color: #ffffff;
+    margin-top: .1rem;
+}
+.interactive-2 .aircraft .bottom2 .footer-2{
+    margin-top: .3rem;
+}
+.interactive-3 .aircraft .img2{
+    z-index: 2;
+    top: -1rem;
+}
+.interactive-3 .aircraft .bottom3{
+    width: 6.2rem;
+    height: 3.3rem;
+}
+.interactive-3 .aircraft .bottom3 .radio{
+    width: 1.2rem;
+    height: .3rem;
+    border-radius: .6rem/.15rem;
+    background: #006633;
+    margin: auto;
+    margin-top: .7rem;
+}
+.interactive-3 .aircraft .bottom3 h2{
+    font-size: .23rem;
+    color: #ffffff;
+    margin-top: .20rem;
+}
+.interactive-3 .aircraft .bottom3 a{
+    display: inline-block;
+    width: 1.6rem;
+    height: .4rem;
+    border-right: .2rem;
+    text-align: center;
+    line-height: .4rem;
+    border-radius: .2rem;
+    margin-left: .9rem;
+    font-size: .22em;
+}
+.interactive-3 .aircraft .bottom3 .footer-3{
+    margin-top: .50rem;
+    text-align: left;
+}
+.interactive-3 .aircraft .bottom3 .a11{
+    background: #cccccc url("../images/footer-3.png") no-repeat;
+    color: #ffffff;
+}
+.interactive-3 .aircraft .bottom3 .a22{
+    background: #ffcc00 url("../images/footer-3.png") no-repeat;
+    color: #663300;
+}
+.interactive{
+    display: none;
+}
