@@ -5,7 +5,7 @@ html{
     font-size: 0;
 }
 header {
-    background: #2bb36b url("../images/header.jpg") no-repeat ;
+    background: #2bb36b url("../images/header.jpg") no-repeat;
     background-size: 100% auto;
     height: 7.6rem;
     border: 0;
@@ -69,7 +69,7 @@ section .w .content .content-n li{
     color: #006666;
     border-radius: .1rem;
     box-shadow: 0 .13rem 0 rgba(255,255,204,0.5);
-    animation: list 6s linear infinite;
+    animation: list 6s  linear infinite;
 }
 @keyframes list{
     0%{background: #ffff00}
@@ -185,8 +185,12 @@ section .w .list-bottom li{
     font-size: .28rem;
     margin: .32rem 0 .3rem .36rem;
 }
-section .w .list-bottom li span{
-    margin: 0 0.8rem 0 1.42rem;
+section .w .list-bottom .username{
+    width: 3rem;
+    display: inline-block;
+}
+section .w .list-bottom .use{
+    margin: 0 0.8rem 0 0;
 }
 section .w .list-bottom li .em1{
     background: url("../images/content-hjlogo.png") no-repeat center center;
@@ -275,7 +279,7 @@ footer{
     border: 1px solid #000;
     box-shadow: 0 .02rem #000;
 }
-.interactive-2 .aircraft .bottom2 .header-2{
+.interactive-2 .aircraft, .bottom2 .header-2{
     color: #003333;
     font-size: .25rem;
 }
